@@ -9,6 +9,7 @@ import Company from "./Components/Pages/Company";
 import NewProject from "./Components/Pages/NewProject";
 import Contact from "./Components/Pages/Contact";
 import Projects from "./Components/Pages/Projects";
+import Project from "./Components/Pages/Project";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
                     <Route path="/company" element={<Company/>} />
                     <Route path="/contact" element={<Contact/>} />
                     <Route path="/newproject" element={<NewProject/>} />
+                    <Route path="/project/:id" element={<Project/>} />
                 </Routes>
             </Container>
         <Footer/>

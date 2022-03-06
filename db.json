@@ -1,37 +1,15 @@
 {
   "projects": [
     {
-      "name": "Projeto um",
-      "budget": "1000",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
       "name": "Projeto Dois",
-      "budget": "2000",
-      "category": {
-        "id": "2",
-        "name": "TI"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "name": "Projeto Tres",
-      "budget": "3000",
+      "budget": "324",
       "category": {
         "id": "3",
         "name": "Dev"
       },
       "cost": 0,
       "services": [],
-      "id": 3
+      "id": 2
     }
   ],
   "categories": [
