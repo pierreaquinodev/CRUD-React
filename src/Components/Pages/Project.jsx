@@ -38,14 +38,26 @@ export default function Project(){
     return (
         <>
             {project.name ? ( 
-                <div>
+                <div className={styles.project_details}>
                     <Container customClass="column">
-                        <div>
+                        <div className={styles.details_container}>
                             <h1>Projeto: {project.name}</h1>
-                            <button onClick={toggleProjectForm}>
+                            <button className={styles.btn} onClick={toggleProjectForm}>
                                 {!showProjectForm ? 'Editar Projeto' : 'Fechar Projeto'}
-                                {console.log(showProjectForm)}
                             </button>
+                            {!showProjectForm ? (
+                                <div className={styles.project_info}>
+                                    <p><span>Categoria:</span> {project.category.name}</p>
+                                    <p><span>Total de Orçamento:</span> {project.budget}</p>
+                                    <p><span>Total Utilizado:</span> R${project.cost}</p>
+                                </div>
+                                
+                            ) : (
+                                
+                                <div className={styles.project_info}>
+                                    <ProjectForrm />
+                                </div>
+                            )}
                         </div>
                     </Container>
                 </div>

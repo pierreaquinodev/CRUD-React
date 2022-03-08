@@ -49,10 +49,8 @@
 }
 
 .project_card_actions{
-    margin-top: 1.2em;
     display: flex;
-    justify-content: space-between;
-
+    flex-direction: row;
 }
 
 .project_card_actions a,
@@ -64,14 +62,13 @@
     font-size: .9em;
     padding: .6em 1em;
     cursor: pointer;
-    margin-right: .5em;
-    margin-left: .5em;
     border: 1px solid #222;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 0.5s;
+    transition: 1s;
+    margin-right: .5em;
 }
 
 .project_card_actions svg{
