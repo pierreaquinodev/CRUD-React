@@ -1,14 +1,51 @@
 {
   "projects": [
     {
-      "name": "Projeto um",
-      "budget": "1234",
+      "name": "Implementar 231",
+      "budget": "32323",
       "category": {
-        "id": "2",
-        "name": "TI"
+        "id": "1",
+        "name": "Infra"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 9473,
+      "services": [
+        {
+          "name": "TETSE",
+          "cost": "213",
+          "description": "TESTE",
+          "id": "cd715b60-a8b6-4b94-a08e-bfd8aee73cb2"
+        },
+        {
+          "name": "SSSSSS",
+          "cost": "2312",
+          "description": "STESTESSSS",
+          "id": "f8ed94f8-ff87-4d2e-843a-571ebb902cec"
+        },
+        {
+          "name": "SSSSSS",
+          "cost": "2312",
+          "description": "STESTESSSS",
+          "id": "f8ed94f8-ff87-4d2e-843a-571ebb902cec"
+        },
+        {
+          "name": "SSSSSS",
+          "cost": "2312",
+          "description": "STESTESSSS",
+          "id": "f8ed94f8-ff87-4d2e-843a-571ebb902cec"
+        },
+        {
+          "name": "SSSSSS",
+          "cost": "2312",
+          "description": "STESTESSSS",
+          "id": "f8ed94f8-ff87-4d2e-843a-571ebb902cec"
+        },
+        {
+          "name": "SSSSSS",
+          "cost": "12",
+          "description": "STESTESSSS",
+          "id": "c503f93a-a50c-44f2-81d9-706a321c5476"
+        }
+      ],
       "id": 1
     }
   ],
